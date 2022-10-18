@@ -1,0 +1,47 @@
+body{
+    background-image: url('earth.gif');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+#italy,#norway,#switzerland{
+    display: block;
+    position:absolute
+}
+#italy{
+     color: green;
+
+
+     position: fixed;
+     
+     
+}
+
+#norway{
+    color: navy;
+
+    position: fixed;
+    left: 300px;
+    
+}
+
+#switzerland{
+    color: red;
+
+    position:fixed;
+    right: 300px;
+}
+
+a{
+    font-size: x-large;
+    font-weight: 800;
+}
